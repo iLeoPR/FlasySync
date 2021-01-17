@@ -1,0 +1,18 @@
+#FlastMC - Sync
+#Plugin para ativação, plugin foi desenvolvido para ativar produtos adquiridos em https://flastmc.com/.
+#Plugin foi desenvolvido por Leonardo (iLeoPR)
+#Versão atual do plugin é 2.3-BETA
+
+mysql:
+  enabled: true
+  user: 'flastmc_web'
+  password: 'FlastMC@2020#'
+  database: 'flastmc_web'
+  host: '5.9.97.151'
+  porta: 3306
+#Nome da tabela do mysql para conexão!
+NomeDaTabela: website_charge
+#Delay para cada tentativa de ativação!
+Delay: 60
+#Servidor do site!
+Servidor: 1
